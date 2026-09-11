@@ -34,55 +34,47 @@ The app checks for new versions itself and offers to download them. Verify the f
 
 ## 1.0.4 (build 5) - 2026-09-15
 
-- Sign-in screen: no keyboard pops up on open; the offer and the privacy policy open right on the screen.
-- Home screen: a wide "Add a record" button; the balance card shows the minutes left and opens the web account.
-- Study: "Exam parameters" block (exam type, physician, exam location, machine, note, age, weight, height) is collapsed by default; 10 ultrasound exam types.
-- Dictation: one record / pause button and a finish button; audio recordings can be played back; upload an existing file.
-- Result: PDF and Word in table and text variants with sharing; the parameters, sections and impression can be edited right in the app, changes are saved at once.
-- Directories of physicians, exam locations and machines are shared with the web account.
-- Personal data typed into the note (names, phones, e-mails) is masked with asterisks.
+- Exam parameters in a collapsible block, 10 ultrasound exam types, physician from the directory.
+- Simpler dictation: one record / pause button and a finish button, playback of audio recordings.
+- Result: PDF and Word in table and text variants, editing of parameters and impression right in the app.
 
 ## 1.0.4 (сборка 5) - 2026-09-15
 
-- Экран входа: клавиатура не появляется при открытии; оферта и политика открываются прямо на экране.
-- Главный экран: широкая кнопка «Добавить запись»; карточка баланса показывает остаток минут и открывает кабинет.
-- Исследование: блок «Параметры проведения УЗИ» (вид УЗИ, врач, место проведения, аппарат, заметка, возраст, вес, рост) свернут по умолчанию; 10 видов УЗИ.
-- Диктовка: одна кнопка записи / паузы и кнопка завершения; аудиозаписи можно прослушать; загрузка имеющегося файла.
-- Результат: PDF и Word в табличном и текстовом вариантах с «поделиться»; показатели, разделы и заключение редактируются прямо в приложении, изменения сохраняются сразу.
-- Справочники врачей, мест проведения и аппаратов общие с личным кабинетом.
-- Персональные данные в заметке (ФИО, телефоны, почта) закрываются звездочками.
+- Параметры проведения УЗИ в сворачиваемом блоке, 10 видов УЗИ, врач из справочника.
+- Проще диктовка: одна кнопка записи / паузы и кнопка завершения, прослушивание аудиозаписей.
+- Результат: PDF и Word в табличном и текстовом вариантах, правка показателей и заключения прямо в приложении.
 
 ## 1.0.3 (build 4) - 2026-09-12
 
-- More reliable account switching and re-sending of a study.
+- Reliability improvements.
 
 ## 1.0.3 (сборка 4) - 2026-09-12
 
-- Надежнее смена аккаунта и повторная отправка исследования.
+- Повышение надежности.
 
 ## 1.0.2 (build 3) - 2026-09-12
 
-- Sign-in and upload reliability; studies from version 1.0.0 are kept for their owner.
+- Reliability improvements.
 
 ## 1.0.2 (сборка 3) - 2026-09-12
 
-- Надежность входа и отправки; исследования версии 1.0.0 сохраняются для своего владельца.
+- Повышение надежности.
 
 ## 1.0.1 (build 2) - 2026-09-12
 
-- Cost estimate before sending; units and recalculation marks in the result; update check for the site build.
+- Cost estimate before sending, update check.
 
 ## 1.0.1 (сборка 2) - 2026-09-12
 
-- Оценка стоимости до отправки; единицы и отметки пересчета в результате; проверка обновлений для сборки с сайта.
+- Оценка стоимости до отправки, проверка обновлений.
 
 ## 1.0.0 (build 1) - 2026-09-12
 
-- First release: sign-in by e-mail code, dictation in the background, sending for processing, result with documents.
+- First release.
 
 ## 1.0.0 (сборка 1) - 2026-09-12
 
-- Первый выпуск: вход по коду на почту, диктовка в фоне, отправка на обработку, результат с документами.
+- Первый выпуск.
 
 ## Desktop
 
