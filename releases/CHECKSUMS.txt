@@ -1,4 +1,6 @@
 # SHA-256 checksums of published files
 
 f714cd651212f7f7d21e732523b9dd1d1b94987c02ba12c0f3a00e11a9703095  releases/android/sonoform-1.0.0.apk
+4125ce300ada8ca5fe14d468ee9616a40dd4420c6a958a404efea9106f278945  releases/android/sonoform-1.0.1.apk
 ac8cfa3cbd7096184a849a6ab425b3cc96d4878092e13b7b5683449d38015cc7  releases/android/uzigolosom-1.0.0.apk
+63bc8772c56700ddb1aa08d45dd99be0ed33bec48bcb8e5160e629a3457de70b  releases/android/uzigolosom-1.0.1.apk
