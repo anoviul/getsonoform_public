@@ -5,19 +5,19 @@ Dictate the exam, get the protocol. Documentation assistant without diagnostic f
 
 This repository contains distributions only (APK files, checksums, release notes). There is no source code here.
 
-## Latest version: 1.0.4 (build 5)
+## Latest version: 1.0.5 (build 6)
 
 ### SonoForm (international, getsonoform.com)
 
-- Download APK: [sonoform-1.0.4.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.4.apk)
-- SHA-256: `f63926d70fc92bf0bbfb13f4f20094586973fb8c6ca4cd8663a75d87c960c5fd`
+- Download APK: [sonoform-1.0.5.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.5.apk)
+- SHA-256: `bc9bb49be18caa2a51bbfbb6511dfc2659aa94c8a2cc5ee4a2003ea8f5db053a`
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
 
 ### УЗИ голосом (Россия, uzigolosom.ru)
 
-- Скачать APK: [uzigolosom-1.0.4.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/uzigolosom-1.0.4.apk)
-- SHA-256: `7161f3f27506fcd60100519d878e2b87b4021b8efb5340224d0225e16941a685`
+- Скачать APK: [uzigolosom-1.0.5.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/uzigolosom-1.0.5.apk)
+- SHA-256: `4c10257a65fafa353063519e053a84c18ce664533d2540d9be4fdf762fdd5fc7`
 
 ![QR: скачать APK УЗИ голосом](releases/android/qr-uzigolosom.png)
 
@@ -31,6 +31,16 @@ This repository contains distributions only (APK files, checksums, release notes
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+## 1.0.5 (build 6) - 2026-09-15
+
+- The web account opens from the app without entering a code.
+- Result parameters are collapsed by default; tap a row to select it and move it up or down.
+
+## 1.0.5 (сборка 6) - 2026-09-15
+
+- Личный кабинет открывается из приложения без ввода кода.
+- Показатели результата свернуты по умолчанию; нажмите на строку, чтобы выделить ее и переместить вверх или вниз.
 
 ## 1.0.4 (build 5) - 2026-09-15
 
