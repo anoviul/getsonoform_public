@@ -5,19 +5,19 @@ Dictate the exam, get the protocol. Documentation assistant without diagnostic f
 
 This repository contains distributions only (APK files, checksums, release notes). There is no source code here.
 
-## Latest version: 1.0.1 (build 2)
+## Latest version: 1.0.2 (build 3)
 
 ### SonoForm (international, getsonoform.com)
 
-- Download APK: [sonoform-1.0.1.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.1.apk)
-- SHA-256: `4125ce300ada8ca5fe14d468ee9616a40dd4420c6a958a404efea9106f278945`
+- Download APK: [sonoform-1.0.2.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.2.apk)
+- SHA-256: `62914f7881748d6848d8009cc59c0b1d4a39c40482d642ca03ad102eb71bfb74`
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
 
 ### УЗИ голосом (Россия, uzigolosom.ru)
 
-- Скачать APK: [uzigolosom-1.0.1.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/uzigolosom-1.0.1.apk)
-- SHA-256: `63bc8772c56700ddb1aa08d45dd99be0ed33bec48bcb8e5160e629a3457de70b`
+- Скачать APK: [uzigolosom-1.0.2.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/uzigolosom-1.0.2.apk)
+- SHA-256: `69d33f98577400868cc5747a3cd695bf8549bbb02079c8daa2637b3462c30ed7`
 
 ![QR: скачать APK УЗИ голосом](releases/android/qr-uzigolosom.png)
 
@@ -31,6 +31,30 @@ This repository contains distributions only (APK files, checksums, release notes
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+## 1.0.2 (build 3) - 2026-09-12
+
+Second audit round (AUDIT_2026-09-12_ANDROID_ROUND_2.md): 7 remaining findings closed.
+
+- Session is an atomic pair account + token with a generation: a new sign-in stays pending until the owner of local data is confirmed; every request is bound to the session it started with, a late 401 of an old session does not revoke the new one; sign-out bumps the generation so a token in a temporarily unavailable encrypted store cannot come back.
+- Upload sends a frozen snapshot (files, note, patient fields, revision) with a persistent operation key; retries complete that snapshot, later edits stay "changed"; audio and metadata revisions are separate, so a note edit never requires re-uploading audio.
+- Metadata sync confirms the exact revision it sent; a sync that meets a running upload is postponed, not dropped; server results are written field by field and never overwrite local unsent edits.
+- Data from 1.0.0 stays on the phone and is restored to the account signing in with the same email; another account cannot see or delete it.
+- Publishing accepts only the exact files of the release; anything else in the public copy stops the release.
+- Sign-out is blocked while an upload is running; a record created on the server after the local study was deleted is deleted later under the same account if the immediate deletion failed.
+- Server: audio with unknown container duration is measured by decoding instead of being treated as zero.
+
+## 1.0.2 (сборка 3) - 2026-09-12
+
+Второй раунд аудита (AUDIT_2026-09-12_ANDROID_ROUND_2.md): закрыты 7 оставшихся замечаний.
+
+- Сессия это атомарная пара аккаунт + токен с поколением: новый вход ждёт, пока не сверен владелец локальных данных; каждый запрос привязан к сессии, под которой начат, поздний 401 старой сессии не отзывает новую; выход поднимает поколение, и токен из временно недоступного шифрованного хранилища не воскресает.
+- Отправка шлёт замороженный снимок (файлы, заметка, поля пациента, ревизия) с постоянным ключом операции; повторы завершают именно его, поздние правки остаются «изменёнными»; ревизии аудио и метаданных разделены, правка заметки не требует повторной отправки аудио.
+- Синхронизация метаданных подтверждает ровно ту ревизию, что отправила; встретив идущую отправку, откладывается, а не пропадает; результаты сервера пишутся по полям и не затирают локальные неотправленные правки.
+- Данные версии 1.0.0 остаются на телефоне и возвращаются аккаунту, который входит прежним адресом; другой аккаунт их не видит и не удаляет.
+- Публикация принимает только точный набор файлов выпуска; любое другое изменение публичной копии останавливает выпуск.
+- Выход заблокирован во время отправки; запись, созданная на сервере после удаления локальной, удаляется позже под тем же аккаунтом, если немедленное удаление не удалось.
+- Сервер: аудио с неизвестной длительностью контейнера измеряется декодированием, а не считается нулевым.
 
 ## 1.0.1 (build 2) - 2026-09-12
 
