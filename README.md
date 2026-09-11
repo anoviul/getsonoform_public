@@ -5,19 +5,19 @@ Dictate the exam, get the protocol. Documentation assistant without diagnostic f
 
 This repository contains distributions only (APK files, checksums, release notes). There is no source code here.
 
-## Latest version: 1.0.2 (build 3)
+## Latest version: 1.0.3 (build 4)
 
 ### SonoForm (international, getsonoform.com)
 
-- Download APK: [sonoform-1.0.2.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.2.apk)
-- SHA-256: `62914f7881748d6848d8009cc59c0b1d4a39c40482d642ca03ad102eb71bfb74`
+- Download APK: [sonoform-1.0.3.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.3.apk)
+- SHA-256: `2ca164b37e4e6c33040c73ce1d8e4ec99fffb00c554e761d33044202fc861b4f`
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
 
 ### УЗИ голосом (Россия, uzigolosom.ru)
 
-- Скачать APK: [uzigolosom-1.0.2.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/uzigolosom-1.0.2.apk)
-- SHA-256: `69d33f98577400868cc5747a3cd695bf8549bbb02079c8daa2637b3462c30ed7`
+- Скачать APK: [uzigolosom-1.0.3.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/uzigolosom-1.0.3.apk)
+- SHA-256: `708129a24d25b3277c10ed9c012c821faa72920e8bfe4c72ffe1d2003f81e68c`
 
 ![QR: скачать APK УЗИ голосом](releases/android/qr-uzigolosom.png)
 
@@ -31,6 +31,24 @@ This repository contains distributions only (APK files, checksums, release notes
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+## 1.0.3 (build 4) - 2026-09-12
+
+Follow-up fixes reported by the auditor after 1.0.2.
+
+- Data from 1.0.0: the previous sign-in address is read before the new session is activated, so old studies are restored only to that address, never to the first account that signs in.
+- Manual re-send completes the same operation: the frozen snapshot and key are kept when the audio is unchanged, instead of being rebuilt.
+- Session storage: account and token are one atomic record under a lock; a reader cannot see a token of one session with the account of another during activation.
+- A late server response can no longer overwrite a note or patient fields that were confirmed after that request started (per-study confirmation timestamp).
+
+## 1.0.3 (сборка 4) - 2026-09-12
+
+Правки по замечаниям аудитора после 1.0.2.
+
+- Данные 1.0.0: адрес прежнего входа читается до активации новой сессии, старые исследования возвращаются только этому адресу, а не первому вошедшему аккаунту.
+- Ручная повторная отправка завершает ту же операцию: при неизменном аудио замороженный снимок и ключ сохраняются, а не создаются заново.
+- Хранилище сессии: аккаунт и токен записываются одной записью под замком, читатель не увидит токен одной сессии с аккаунтом другой во время активации.
+- Запоздавший ответ сервера больше не затирает заметку и поля пациента, подтверждённые после начала этого запроса (метка времени подтверждения по исследованию).
 
 ## 1.0.2 (build 3) - 2026-09-12
 
