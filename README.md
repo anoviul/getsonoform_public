@@ -11,6 +11,7 @@ This repository contains distributions only (APK files, checksums, release notes
 
 - Download APK: [sonoform-1.0.6.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.6.apk)
 - SHA-256: `8bbe745dc4e06f542b908e3f7cd027f46615ff77b06eb2a3e52349f0c1e730b8`
+- Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
 
@@ -18,6 +19,7 @@ This repository contains distributions only (APK files, checksums, release notes
 
 - Скачать APK: [uzigolosom-1.0.6.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/uzigolosom-1.0.6.apk)
 - SHA-256: `7a1dbe77d695d0b9f03ddeb86f7dd50df28fed6efa434d86cc70e73538c41ae8`
+- Всегда последняя версия: https://app.uzigolosom.ru/download/android
 
 ![QR: скачать APK УЗИ голосом](releases/android/qr-uzigolosom.png)
 
