@@ -6,9 +6,11 @@ f714cd651212f7f7d21e732523b9dd1d1b94987c02ba12c0f3a00e11a9703095  releases/andro
 2ca164b37e4e6c33040c73ce1d8e4ec99fffb00c554e761d33044202fc861b4f  releases/android/sonoform-1.0.3.apk
 f63926d70fc92bf0bbfb13f4f20094586973fb8c6ca4cd8663a75d87c960c5fd  releases/android/sonoform-1.0.4.apk
 bc9bb49be18caa2a51bbfbb6511dfc2659aa94c8a2cc5ee4a2003ea8f5db053a  releases/android/sonoform-1.0.5.apk
+8bbe745dc4e06f542b908e3f7cd027f46615ff77b06eb2a3e52349f0c1e730b8  releases/android/sonoform-1.0.6.apk
 ac8cfa3cbd7096184a849a6ab425b3cc96d4878092e13b7b5683449d38015cc7  releases/android/uzigolosom-1.0.0.apk
 63bc8772c56700ddb1aa08d45dd99be0ed33bec48bcb8e5160e629a3457de70b  releases/android/uzigolosom-1.0.1.apk
 69d33f98577400868cc5747a3cd695bf8549bbb02079c8daa2637b3462c30ed7  releases/android/uzigolosom-1.0.2.apk
 708129a24d25b3277c10ed9c012c821faa72920e8bfe4c72ffe1d2003f81e68c  releases/android/uzigolosom-1.0.3.apk
 7161f3f27506fcd60100519d878e2b87b4021b8efb5340224d0225e16941a685  releases/android/uzigolosom-1.0.4.apk
 4c10257a65fafa353063519e053a84c18ce664533d2540d9be4fdf762fdd5fc7  releases/android/uzigolosom-1.0.5.apk
+7a1dbe77d695d0b9f03ddeb86f7dd50df28fed6efa434d86cc70e73538c41ae8  releases/android/uzigolosom-1.0.6.apk
