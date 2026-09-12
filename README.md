@@ -5,20 +5,20 @@ Dictate the exam, get the protocol. Documentation assistant without diagnostic f
 
 This repository contains distributions only (APK files, checksums, release notes). There is no source code here.
 
-## Latest version: 1.0.7 (build 8)
+## Latest version: 1.0.8 (build 9)
 
 ### SonoForm (international, getsonoform.com)
 
-- Download APK: [sonoform-1.0.7.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.7.apk)
-- SHA-256: `942b3b0b0f9cc663bb180ada3adcc7d4354d24ce10f2c7e76f0be7f52fca3d5b`
+- Download APK: [sonoform-1.0.8.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.8.apk)
+- SHA-256: `fb54bc04ade32bb393b25fe50f682ad03e22da97228e6f95a4c0cce1f7aa31d1`
 - Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
 
 ### УЗИ голосом (Россия, uzigolosom.ru)
 
-- Скачать APK: [uzigolosom-1.0.7.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/uzigolosom-1.0.7.apk)
-- SHA-256: `2f95a03b6a1394df40664758105e08d948616a31a78d366c1327c1ec3ca70d4f`
+- Скачать APK: [uzigolosom-1.0.8.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/uzigolosom-1.0.8.apk)
+- SHA-256: `3abd6491b9c989c7b80168610c7594c72f4b3cab97ee343acb6c3df106ff1eeb`
 - Всегда последняя версия: https://app.uzigolosom.ru/download/android
 
 ![QR: скачать APK УЗИ голосом](releases/android/qr-uzigolosom.png)
@@ -33,6 +33,14 @@ This repository contains distributions only (APK files, checksums, release notes
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+## 1.0.8 (build 9) - 2026-09-15
+
+- Reliability fix for saving edits after sign-out.
+
+## 1.0.8 (сборка 9) - 2026-09-15
+
+- Исправление надежности сохранения правок после выхода из аккаунта.
 
 ## 1.0.7 (build 8) - 2026-09-15
 
