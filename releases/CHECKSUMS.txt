@@ -9,3 +9,4 @@ bc9bb49be18caa2a51bbfbb6511dfc2659aa94c8a2cc5ee4a2003ea8f5db053a  releases/andro
 8bbe745dc4e06f542b908e3f7cd027f46615ff77b06eb2a3e52349f0c1e730b8  releases/android/sonoform-1.0.6.apk
 942b3b0b0f9cc663bb180ada3adcc7d4354d24ce10f2c7e76f0be7f52fca3d5b  releases/android/sonoform-1.0.7.apk
 fb54bc04ade32bb393b25fe50f682ad03e22da97228e6f95a4c0cce1f7aa31d1  releases/android/sonoform-1.0.8.apk
+f3ec46e974029f719f3da244638891b43dded3f3c49ace3d46b49bbdd6f11839  releases/android/sonoform-1.0.9.apk
