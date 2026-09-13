@@ -5,10 +5,10 @@ Dictate the exam, get the protocol. Documentation assistant without diagnostic f
 
 This repository contains distributions only (APK files, checksums, release notes). There is no source code here.
 
-## Latest version: 1.0.15
+## Latest version: 1.0.16
 
-- Download APK: [sonoform-1.0.15.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.15.apk)
-- SHA-256: `ca7e5e720f5ce36392fd92f09a33da400453db2f1f8b566f7f46435407ebdf98`
+- Download APK: [sonoform-1.0.16.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.16.apk)
+- SHA-256: `cfdc7580e3f60a23727c8bb35163d71c85fe29846ef5d2af25406c2f46df320c`
 - Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
@@ -23,6 +23,10 @@ This repository contains distributions only (APK files, checksums, release notes
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+### 1.0.16 - 2026-09-13
+
+- Fixed a crash when opening a study in 1.0.15. Please update if you installed it.
 
 ### 1.0.15 - 2026-09-13
 
