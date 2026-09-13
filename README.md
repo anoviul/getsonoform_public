@@ -5,10 +5,10 @@ Dictate the exam, get the protocol. Documentation assistant without diagnostic f
 
 This repository contains distributions only (APK files, checksums, release notes). There is no source code here.
 
-## Latest version: 1.0.12
+## Latest version: 1.0.13
 
-- Download APK: [sonoform-1.0.12.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.12.apk)
-- SHA-256: `a694d28a5faf870c0fdfc825e5c0aa7d96a1511f8ae7154f40ee90ba9c6ec5b9`
+- Download APK: [sonoform-1.0.13.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.13.apk)
+- SHA-256: `c7bd5d7377488148840d90b4abecd3d32332395d1e7714e41047e871a26da0ea`
 - Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
@@ -23,6 +23,10 @@ This repository contains distributions only (APK files, checksums, release notes
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+### 1.0.13 - 2026-09-16
+
+- Print the protocol from the browser: the patient name is typed before printing and never sent to the server.
 
 ### 1.0.12 - 2026-09-16
 
