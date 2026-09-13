@@ -5,10 +5,10 @@ Dictate the exam, get the protocol. Documentation assistant without diagnostic f
 
 This repository contains distributions only (APK files, checksums, release notes). There is no source code here.
 
-## Latest version: 1.0.14
+## Latest version: 1.0.15
 
-- Download APK: [sonoform-1.0.14.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.14.apk)
-- SHA-256: `01cd5f040d0f04247a3ef608b0f9013d832b0013e370ad4317ca57a453a6d649`
+- Download APK: [sonoform-1.0.15.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.15.apk)
+- SHA-256: `ca7e5e720f5ce36392fd92f09a33da400453db2f1f8b566f7f46435407ebdf98`
 - Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
@@ -23,6 +23,11 @@ This repository contains distributions only (APK files, checksums, release notes
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+### 1.0.15 - 2026-09-13
+
+- Veterinary exam types: abdomen, echocardiography and pregnancy for cats and dogs. For them species, breed, weight, age and sex replace the human subject fields.
+- New exam types: obstetric 1st and 2nd-3rd trimester, scrotum, joints, infant hips, neonatal cranial ultrasound, leg arteries.
 
 ### 1.0.14 - 2026-09-13
 
