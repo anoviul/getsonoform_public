@@ -5,10 +5,10 @@ Dictate the exam, get the protocol. Documentation assistant without diagnostic f
 
 This repository contains distributions only (APK files, checksums, release notes). There is no source code here.
 
-## Latest version: 1.0.10
+## Latest version: 1.0.11
 
-- Download APK: [sonoform-1.0.10.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.10.apk)
-- SHA-256: `c4a3ea4022646502d698b66c7656a1d65a17a3f32d6ea9d44986df8ca09d3324`
+- Download APK: [sonoform-1.0.11.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.11.apk)
+- SHA-256: `daef785825385bd170dec1ec8c421cce8c2206d45aa471a5225eea7be6d0f308`
 - Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
@@ -23,6 +23,11 @@ This repository contains distributions only (APK files, checksums, release notes
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+### 1.0.11 - 2026-09-16
+
+- A draft with filled parameters is no longer deleted on reopening.
+- A custom row in a new section is visible offline too.
 
 ### 1.0.10 - 2026-09-15
 
