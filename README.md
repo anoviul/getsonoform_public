@@ -5,6 +5,8 @@ Dictate the exam, get the protocol. Documentation assistant without diagnostic f
 
 This repository contains distributions only (APK files, checksums, release notes). There is no source code here.
 
+There is no iPhone app and none is needed: the workspace at https://app.getsonoform.com has a web recorder (New record → Ultrasound recorder) that works in Safari.
+
 ## Latest version: 1.0.16
 
 - Download APK: [sonoform-1.0.16.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.16.apk)
