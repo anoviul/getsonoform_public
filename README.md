@@ -31,6 +31,7 @@ The app checks for new versions itself and offers to download them. Verify the f
 - French, Kazakh, Belarusian and Ukrainian interface: the app follows the phone language.
 - Protocol language can be chosen on the study screen: dictate in one language, get the report in another.
 - Exam type names are shown in your language.
+- A play button next to every measurement: playback starts one second before the moment you said the value.
 
 ### 1.0.16 - 2026-09-13
 
