@@ -7,10 +7,10 @@ This repository contains distributions only (APK files, checksums, release notes
 
 There is no iPhone app and none is needed: the workspace at https://app.getsonoform.com has a web recorder (New record → Ultrasound recorder) that works in Safari.
 
-## Latest version: 1.0.16
+## Latest version: 1.0.18
 
-- Download APK: [sonoform-1.0.16.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.16.apk)
-- SHA-256: `cfdc7580e3f60a23727c8bb35163d71c85fe29846ef5d2af25406c2f46df320c`
+- Download APK: [sonoform-1.0.18.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.18.apk)
+- SHA-256: `a64263697ec492e5e7742df5a1d38f64bd039125a30cb070a29d618221a13f60`
 - Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
@@ -25,6 +25,12 @@ There is no iPhone app and none is needed: the workspace at https://app.getsonof
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+### 1.0.18 - 2026-09-18
+
+- French, Kazakh, Belarusian and Ukrainian interface: the app follows the phone language.
+- Protocol language can be chosen on the study screen: dictate in one language, get the report in another.
+- Exam type names are shown in your language.
 
 ### 1.0.16 - 2026-09-13
 
