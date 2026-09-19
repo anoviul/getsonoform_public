@@ -7,10 +7,10 @@ This repository contains distributions only (APK files, checksums, release notes
 
 There is no iPhone app and none is needed: the workspace at https://app.getsonoform.com has a web recorder (New record → Ultrasound recorder) that works in Safari.
 
-## Latest version: 1.0.21
+## Latest version: 1.0.22
 
-- Download APK: [sonoform-1.0.21.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.21.apk)
-- SHA-256: `c13088418286db9e9b7d4d8e9162f37be2f99742a5610d25fd4f25f431a99dcc`
+- Download APK: [sonoform-1.0.22.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.22.apk)
+- SHA-256: `5ad60c9cf75c66daedca607d8e23fcc20826086c2b2c0736a365f0de63ec90c2`
 - Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
@@ -25,6 +25,10 @@ There is no iPhone app and none is needed: the workspace at https://app.getsonof
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+### 1.0.22 - 2026-09-19
+
+- The app reports failures to the developer so that breakages get fixed sooner: only the technical context is sent, without names, e-mail or the content of recordings. Reporting can be switched off in the workspace profile.
 
 ### 1.0.21 - 2026-09-19
 
