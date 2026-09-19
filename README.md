@@ -7,10 +7,10 @@ This repository contains distributions only (APK files, checksums, release notes
 
 There is no iPhone app and none is needed: the workspace at https://app.getsonoform.com has a web recorder (New record → Ultrasound recorder) that works in Safari.
 
-## Latest version: 1.0.19
+## Latest version: 1.0.21
 
-- Download APK: [sonoform-1.0.19.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.19.apk)
-- SHA-256: `d1fbaa1f22804530e057faa0a160ecf5456f4ec8d9e955c1814995b2c2b87529`
+- Download APK: [sonoform-1.0.21.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.21.apk)
+- SHA-256: `c13088418286db9e9b7d4d8e9162f37be2f99742a5610d25fd4f25f431a99dcc`
 - Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
@@ -25,6 +25,16 @@ There is no iPhone app and none is needed: the workspace at https://app.getsonof
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+### 1.0.21 - 2026-09-19
+
+- The unit of account is now a report: one submission for recognition is one report, whatever the length of the dictation.
+- The state of a submission is visible under the button: accepted, processing, done. If there are no paid reports, you see it before sending.
+
+### 1.0.20 - 2026-09-19
+
+- The account is now counted in studies, not minutes: one submission for recognition is one study, whatever its length. The balance shows how many studies are left.
+- Recording itself stays unlimited, the limit applies only to audio sent for recognition.
 
 ### 1.0.19 - 2026-09-19
 
