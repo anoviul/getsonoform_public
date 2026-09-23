@@ -7,10 +7,10 @@ This repository contains distributions only (APK files, checksums, release notes
 
 There is no iPhone app and none is needed: the workspace at https://app.getsonoform.com has a web recorder (New record → Ultrasound recorder) that works in Safari.
 
-## Latest version: 1.0.22
+## Latest version: 1.0.23
 
-- Download APK: [sonoform-1.0.22.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.22.apk)
-- SHA-256: `5ad60c9cf75c66daedca607d8e23fcc20826086c2b2c0736a365f0de63ec90c2`
+- Download APK: [sonoform-1.0.23.apk](https://github.com/anoviul/getsonoform_public/raw/main/releases/android/sonoform-1.0.23.apk)
+- SHA-256: `d02f0f4af88c789f6b3ab2575a78ac061816ef3821eddec03713b5a32218d48f`
 - Always the latest version: https://app.getsonoform.com/download/android
 
 ![QR: download SonoForm APK](releases/android/qr-sonoform.png)
@@ -25,6 +25,13 @@ There is no iPhone app and none is needed: the workspace at https://app.getsonof
 The app checks for new versions itself and offers to download them. Verify the file with the SHA-256 checksum from `releases/CHECKSUMS.txt`.
 
 ## Release notes
+
+### 1.0.23 - 2026-09-23
+
+- A recording can be saved to the device: a button next to each take.
+- Before sending a very short recording the app asks first. If the microphone hears no voice, you see it while recording.
+- If a different study was dictated than the one chosen, the app suggests it and lets you switch without spending a report.
+- Bug fixes.
 
 ### 1.0.22 - 2026-09-19
 
